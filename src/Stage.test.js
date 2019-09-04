@@ -6,7 +6,7 @@ import Stage from './Stage';
 describe('<Stage />', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Stage />, div);
+    ReactDOM.render(<Stage participantsOnStage={[]} />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
