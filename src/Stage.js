@@ -7,11 +7,10 @@ function Stage(props) {
       <h1>On Stage</h1>
       {
         props.participantsOnStage.map(p => 
-        <div className= "stage-Participant">
-           
-         <img src={p.avatar} alt="avatar"/>
-        <h2>{p.name}</h2> 
-        </div>                                                                                                       
+          <div className="stage-Participant">
+            <h2>{p.name}</h2> 
+            <img src={p.avatar} alt="avatar"/>
+          </div>                                                                                                       
         )
       }
     </div>

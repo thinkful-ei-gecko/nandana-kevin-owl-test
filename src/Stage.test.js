@@ -10,7 +10,7 @@ describe('<Stage />', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('renders satge as expected',() => {
+  it('stage renders as expected', () => {
     const tree = renderer.create(<Stage participantsOnStage={[]} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
