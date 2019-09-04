@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatLog /> chatlog renders as expected 1`] = `
+<div
+  className="ChatLog"
+>
+  <h1>
+    Chat Log
+  </h1>
+  Nobody!
+</div>
+`;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Stage /> renders satge as expected 1`] = `
+exports[`<Stage /> stage renders as expected 1`] = `
 <div
   className="Stage"
 >

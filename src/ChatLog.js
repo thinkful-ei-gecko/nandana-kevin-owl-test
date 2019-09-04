@@ -2,6 +2,16 @@ import React from 'react';
 import './ChatLog.css';
 
 function ChatLog(props) {
+  if(props.chatEvents.length === 0 || props.participants.length === 0) {
+    return (
+      <div className="ChatLog">
+        <h1>Chat Log</h1>
+        Nobody!
+      </div>
+    )
+  }
+
+
   let activeParticipants = [];
   for (let i = 0; i < props.chatEvents.length; i++) {
     const participantId = props.chatEvents[i].participantId;
